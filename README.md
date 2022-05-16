@@ -63,7 +63,7 @@ We have 5 endpoints
 | `GET` | /company{id} | Customer for ID (Search) |
 | `GET` | /summary | Summary with the most relevant data |
 | `GET` | /top | Summary with the top of the companies with most transactions (top 10) |
-| `GET` | /top | Summary with the top of the companies with most transactions (top 10) |
+| `GET` | /top{number} | Summary with the top of the companies with most transactions (top number) |
 
 ## 💯 Plus (Deployed in-real-time on Heroku) & Postman Collection:
 Heroku Deployment:
