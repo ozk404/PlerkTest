@@ -65,8 +65,12 @@ We have 5 endpoints
 | `GET` | /top | Summary with the top of the companies with most transactions (top 10) |
 | `GET` | /top | Summary with the top of the companies with most transactions (top 10) |
 
-## 💯 Plus (Deployed in-real-time on Heroku)
+## 💯 Plus (Deployed in-real-time on Heroku) & Postman Collection:
+Heroku Deployment:
 https://plerk-challange.herokuapp.com/
+
+Postman Collection:
+https://documenter.getpostman.com/view/21004738/UyxjHmmD
 
 ## ✅ Tareas:
 Esta parte la dejaré en español para que sea más fácil evaluar los puntos jaja :)
