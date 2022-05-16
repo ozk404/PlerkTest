@@ -1,0 +1,228 @@
+{
+	"info": {
+		"_postman_id": "b71c13a1-4c14-41d6-ad9b-78af6fe12bfc",
+		"name": "PlerkTest",
+		"description": "For more information you can go to the repository of this project: https://github.com/ozk404/PlerkTest\n\nOr contact me:)\nozk404@gmail.com\nhttps://www.OscarMoralesGT.com",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "List Companies",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://plerk-challange.herokuapp.com/company/",
+					"protocol": "https",
+					"host": [
+						"plerk-challange",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"company",
+						""
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "List Companies",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://plerk-challange.herokuapp.com/company/",
+							"protocol": "https",
+							"host": [
+								"plerk-challange",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"company",
+								""
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "Company by ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://plerk-challange.herokuapp.com/company/260d8283-d148-4db2-83a7-b65f0805a816",
+					"protocol": "https",
+					"host": [
+						"plerk-challange",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"company",
+						"260d8283-d148-4db2-83a7-b65f0805a816"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Company by ID",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://plerk-challange.herokuapp.com/company/260d8283-d148-4db2-83a7-b65f0805a816",
+							"protocol": "https",
+							"host": [
+								"plerk-challange",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"company",
+								"260d8283-d148-4db2-83a7-b65f0805a816"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "Summary",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://plerk-challange.herokuapp.com/summary/",
+					"protocol": "https",
+					"host": [
+						"plerk-challange",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"summary",
+						""
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Summary",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://plerk-challange.herokuapp.com/summary/",
+							"protocol": "https",
+							"host": [
+								"plerk-challange",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"summary",
+								""
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "Top 10 Companies",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://plerk-challange.herokuapp.com/top/",
+					"protocol": "https",
+					"host": [
+						"plerk-challange",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"top",
+						""
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Top 10 Companies",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://plerk-challange.herokuapp.com/top/",
+							"protocol": "https",
+							"host": [
+								"plerk-challange",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"top",
+								""
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "Top Companies custom",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://plerk-challange.herokuapp.com/top/20",
+					"protocol": "https",
+					"host": [
+						"plerk-challange",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"top",
+						"20"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Top Companies custom",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": null
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		}
+	]
+}
