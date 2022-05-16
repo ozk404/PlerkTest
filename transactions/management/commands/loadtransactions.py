@@ -7,10 +7,9 @@ from transactions.models import Transaction, Company
 
 class Command(BaseCommand):
     def handle(self, *args, **options):
-        path = pt.abspath(pt.join( os.getcwd(), os.pardir)) + r"\test_database.csv"
+        urlfile = 'https://raw.githubusercontent.com/ozk404/PlerkTest/main/test_database.csv'
         data = pd.read_csv(
-            path
-        )
+            urlfile,sep=",")
         data["company"] = data["company"].str.capitalize()
         df = pd.DataFrame(
             data,

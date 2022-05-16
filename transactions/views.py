@@ -5,8 +5,15 @@ from rest_framework.views import APIView
 from rest_framework import status
 from rest_framework.response import Response
 from .models import Transaction, Company
-from .serializers import CompanyServiceSerialize, SummarySerializer
+from .serializers import CompanySerializer,CompanyServiceSerialize, SummarySerializer
 from transactions import serializers
+
+class CompanyData(APIView):
+    
+    def get(self, request):
+        company = Company.objects.all()
+        copmanu_serializer = CompanySerializer(company, many=True)
+        return Response(copmanu_serializer.data, status=status.HTTP_200_OK)
 
 
 def check_transactions(status):

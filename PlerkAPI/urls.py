@@ -18,6 +18,7 @@ schema_view = get_schema_view(
 )
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('company/',  views.CompanyData.as_view(), name="Company Service"),
     path("company/<uuid:company_id>/", views.CompanyService.as_view(), name="Company Service"),
     path("summary/", views.SummaryService.as_view(), name="Summary"),
     path("top/", views.TopCompanies.as_view(), name="TOP"),
