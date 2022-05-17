@@ -59,8 +59,8 @@ We have 5 endpoints
 
 | HTTP Type | Path | Used For |
 | --- | --- | --- |
-| `GET` | /company | List of all Customers in DB |
-| `GET` | /company{id} | Customer for ID (Search) |
+| `GET` | /company | List of all Companies in DB |
+| `GET` | /company{id} | Companies for ID (Search) (Summary of important transactions data) |
 | `GET` | /summary | Summary with the most relevant data |
 | `GET` | /top | Summary with the top of the companies with most transactions (top 10) |
 | `GET` | /top{number} | Summary with the top of the companies with most transactions (top number) |
